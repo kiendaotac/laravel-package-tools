@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelPackageTools;
+namespace Kiendaotac\LaravelPackageTools;
 
 use Illuminate\Support\Str;
 
@@ -23,6 +23,8 @@ class Package
     public array $commands = [];
 
     public string $basePath;
+
+    public string $version;
 
     public function name(string $name): self
     {
@@ -121,6 +123,13 @@ class Package
     public function setBasePath(string $path): self
     {
         $this->basePath = $path;
+
+        return $this;
+    }
+
+    public function setVersion(string $version): self
+    {
+        $this->version = $version;
 
         return $this;
     }

@@ -1,16 +1,16 @@
 {
-    "name": "spatie/laravel-package-tools",
-    "description": "Tools for creating Laravel packages",
+    "name": "kiendaotac/laravel-package-tools",
+    "description": "Tools for creating Laravel packages in my CMS",
     "keywords": [
-        "spatie",
+        "kiendaotac",
         "laravel-package-tools"
     ],
-    "homepage": "https://github.com/spatie/laravel-package-tools",
+    "homepage": "https://github.com/kiendaotac/laravel-package-tools",
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
+            "name": "Kiên Đạo Tặc",
+            "email": "hoangkien151092@gmail.com",
             "role": "Developer"
         }
     ],
@@ -26,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\LaravelPackageTools\\": "src",
-            "Spatie\\LaravelPackageTools\\Database\\Factories\\": "database/factories"
+            "Kiendaotac\\LaravelPackageTools\\": "src",
+            "Kiendaotac\\LaravelPackageTools\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\LaravelPackageTools\\Tests\\": "tests"
+            "Kiendaotac\\LaravelPackageTools\\Tests\\": "tests"
         }
     },
     "scripts": {

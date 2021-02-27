@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\LaravelPackageTools;
+namespace Kiendaotac\LaravelPackageTools;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use ReflectionClass;
-use Spatie\LaravelPackageTools\Exceptions\InvalidPackage;
+use Kiendaotac\LaravelPackageTools\Exceptions\InvalidPackage;
 
 abstract class PackageServiceProvider extends ServiceProvider
 {
